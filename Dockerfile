@@ -8,4 +8,4 @@ RUN apt-get update && apt-get install -y python3 \
 
 EXPOSE 5000
 
-CMD ["python3",""app.py","--host", "127.0.0.1", "--port", "5000"]
+CMD ["python3","app.py","--host", "127.0.0.1", "--port", "5000"]
